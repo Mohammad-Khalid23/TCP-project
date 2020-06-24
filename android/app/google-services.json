@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "943334901478",
+    "firebase_url": "https://tcproject20.firebaseio.com",
+    "project_id": "tcproject20",
+    "storage_bucket": "tcproject20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943334901478:android:0b03cbd24e8df14b5edd27",
+        "android_client_info": {
+          "package_name": "com.textcakes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943334901478-8lgccd0pkbpt22f2c40v5uat9iade6gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEW0OoWAYN-ElH0E_svfopC1690v9jJmg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "943334901478-8lgccd0pkbpt22f2c40v5uat9iade6gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
