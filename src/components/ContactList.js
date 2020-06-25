@@ -77,7 +77,7 @@ export default function ContactList(props) {
             setState({ ...state, loading: true })
             Contacts.getAll(async (err, contacts) => {
                 const contactList = contacts.slice(0, 20);
-                await getBirthdayList(contactList);
+                await getBirthdayList(contacts);
                 if (err) {
                     setState({
                         ...state,
@@ -151,6 +151,10 @@ export default function ContactList(props) {
                 <Body>
                     <Text>{data.displayName}</Text>
                     <Text note numberOfLines={1}>{showNumber(data)}</Text>
+                    {
+                        data.birthday &&
+                        <Text>{`${data.birthday.day}-${data.birthday.month}-${data.birthday.year}`}</Text>
+                    }
                 </Body>
                 <Right>
                     {

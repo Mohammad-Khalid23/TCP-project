@@ -10,7 +10,7 @@ const Stack = createStackNavigator();
 export default function HomeStack({navigation}) {
   const { logout } = useContext(AuthContext);
   return (
-    <Stack.Navigator initialRouteName='Birthdays'>
+    <Stack.Navigator initialRouteName='Contacts'>
       <Stack.Screen name='Contacts' component={ContactScreen}
         options={{
           title: 'Contacts',
